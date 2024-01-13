@@ -1,0 +1,1 @@
+export const NO_LINK_HREF = "javascript:void(0);";
