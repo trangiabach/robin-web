@@ -1,4 +1,4 @@
-import { navOptions } from "./consts.ts";
+import { navOptions } from "./consts";
 import { Logo } from "./Logo";
 import { NavOptions } from "./NavOptions";
 

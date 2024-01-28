@@ -10,6 +10,10 @@
   border: 1px solid rgba(126, 174, 120, 1);
 }
 
+.border-l-primary {
+  border-left: 1px solid rgba(126, 174, 120, 1);
+}
+
 .border-b-primary {
   border-bottom: 1px solid rgba(126, 174, 120, 1);
 }

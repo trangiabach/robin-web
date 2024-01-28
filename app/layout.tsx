@@ -18,9 +18,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <FontConfig />
-      <body className="robin-text bg-black">
+      <body className="robin-text bg-black text-white">
         <div className="w-screen max-w-page h-screen mx-auto overflow-y-auto md:overflow-y-visible flex flex-col flex-1">
-          <div className="m-3">
+          <div
+            className="m-3 sticky top-0 z-30 bg-white/5"
+            style={{
+              backdropFilter: "blur(30px)",
+            }}
+          >
             <DashboardNavbar />
           </div>
           <DashboardContainer>{children}</DashboardContainer>

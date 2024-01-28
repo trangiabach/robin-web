@@ -31,7 +31,7 @@ export const Logo = () => {
   return (
     <Link
       href={clientRoutes.dashboard}
-      className="flex items-center mr-3 text-logo gap-1"
+      className="flex items-center mr-3 text-lg md:text-2xl gap-1"
     >
       <Image
         src="/images/robin-logo.png"

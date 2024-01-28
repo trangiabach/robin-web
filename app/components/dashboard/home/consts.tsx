@@ -10,40 +10,29 @@ export const ModelIcon = ({ icon }: { icon: IconType }) => {
   const IconComponent = icon;
   return (
     <div className="grow flex items-center justify-center">
-      <IconComponent color={COLORS.primary} size={150} />
+      {IconComponent && <IconComponent color={COLORS.primary} size={150} />}
     </div>
   );
 };
 
 export const robinModel: Card = {
-  title: "Robin",
+  title: "Robin-hunt",
   description:
-    "Robin is an interface for identifying fraudelence for healthcare claims. Provide any claims' metadata and Robin can output a correct classification. In the future, Robin will also support its classifications with cited sources and general reasonings.",
+    "Robin-hunt is an interface for identifying fraudelence for healthcare claims. Provide any claims' metadata and Robin-hunt can output a correct classification of fraudulence. In the future, Robin-hunt will also support its classifications with cited sources and general reasonings.",
   button: {
-    text: "Try Robin",
-    href: clientRoutes.models("robin"),
+    text: "Try Robin-hunt",
+    href: clientRoutes.overviewModels("robin-hunt"),
   },
-  graphic: <ModelIcon icon={modelIconMap["robin"]} />,
-};
-
-export const helmModel: Card = {
-  title: "Hunt",
-  description:
-    "Hunt is an interface for identifying fraudelence for provider claims. Provide any providers' metadata and Helm can output a correct classification. In the future, Hunt will also support its classifications with cited sources and general reasonings.",
-  button: {
-    text: "Try Hunt",
-    href: clientRoutes.models("helm"),
-  },
-  graphic: <ModelIcon icon={modelIconMap["hunt"]} />,
+  graphic: <ModelIcon icon={modelIconMap["robin-hunt"]} />,
 };
 
 export const holmesModel: Card = {
-  title: "Holmes",
+  title: "Robin-holmes",
   description:
-    "Holmes is an interface for in-depth analysis for fraudulence for any healthcare metadata. Use it to gather detailed views of feature anomalies and fraud indicators, all backed by a massive database of healthcare fraudulent cases.",
+    "Robin-holmes is an interface for in-depth analysis for fraudulence for any healthcare metadata. Use it to gather detailed views of feature anomalies and fraud indicators, all backed by a massive database of healthcare fraudulent cases.",
   button: {
-    text: "Try Holmes",
-    href: clientRoutes.models("holmes"),
+    text: "Try Robin-holmes",
+    href: clientRoutes.overviewModels("robin-holmes"),
   },
-  graphic: <ModelIcon icon={modelIconMap["holmes"]} />,
+  graphic: <ModelIcon icon={modelIconMap["robin-holmes"]} />,
 };

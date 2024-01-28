@@ -9,7 +9,7 @@ export const Welcome = () => {
       <div className="flex w-full flex-col overflow-hidden md:flex-row">
         <div className="flex flex-col px-4 pt-6 md:w-2/3 md:px-9 md:pt-10 lg:px-10">
           <div className="text-2xl lg:text-4xl robin-variable-cut font-[420] mb-6">
-            Welcome, <span className="text-primary">{mockUser.firstName}!</span>
+            Welcome!
           </div>
           <div className="text-md lg:text-lg font-variable font-[420] mb-3 robin-variable">
             What is Robin?
