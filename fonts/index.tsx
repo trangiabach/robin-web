@@ -2,12 +2,12 @@
 
 import localFont from "next/font/local";
 
-const robinVariable = localFont({
+export const robinVariable = localFont({
   src: "../public/fonts/RobinVariable.woff2",
   display: "swap",
 });
 
-const robinText = localFont({
+export const robinText = localFont({
   src: "../public/fonts/RobinText.woff2",
   display: "swap",
 });

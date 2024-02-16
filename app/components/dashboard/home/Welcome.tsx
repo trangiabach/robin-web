@@ -15,10 +15,9 @@ export const Welcome = () => {
             What is Robin?
           </div>
           <div className="text-overline font-body pb-6 robin-text md:pb-10 opacity-80">
-            Robin allows you to detect fraudulence for any healthcare claims and
-            providers, while providing you with in-depth analysis of anomalies
-            and fraud indicators. Get started by choosing which Robin models you
-            want to experiment with!
+            Robin is an end-to-end healthcare fraud detection tool that
+            streamlines the process of labeling and analyzing claims as well as
+            boosts fraud classification accuracy by over 25%.
           </div>
         </div>
       </div>

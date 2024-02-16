@@ -23,7 +23,7 @@ export default function RobinHuntOverview() {
         <LandingGraphic url="https://prod.spline.design/AMA8mv-IHVDcW5Wz/scene.splinecode" />
       </SectionContainer>
       <SectionContainer>
-        <WhySection title="Why Robin-holmes" options={WhyOptionsRobinHolmes} />
+        <WhySection title="Why Robin-HOLMES" options={WhyOptionsRobinHolmes} />
       </SectionContainer>
       <SectionContainer>
         <OverviewCard

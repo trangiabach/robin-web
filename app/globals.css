@@ -46,3 +46,34 @@
 .text-overline {
   font-size: .875rem;
 }
+
+.rc-slider-track {
+  background-color: rgba(126, 174, 120, 1) !important;
+  height: 5px !important;
+}
+
+.rc-slider-rail {
+  background-color: black !important;
+  border: 1px solid rgba(126, 174, 120, 1);
+  height: 5px !important;
+}
+
+.rc-slider-handle {
+  background-color: rgb(251 146 60) !important;
+  opacity: 1 !important;
+  border: none !important;
+}
+
+.rc-slider-handle-dragging {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ag-theme-quartz-dark {
+  --ag-background-color: black !important;
+  --ag-border-color: rgba(126, 174, 120, 1) !important;
+  --ag-header-background-color: black !important;
+  --ag-row-hover-color: rgba(126, 174, 120, 0.5) !important;
+  --ag-active-color: rgba(126, 174, 120, 0.5) !important;
+  --ag-control-panel-background-color: black !important;
+}

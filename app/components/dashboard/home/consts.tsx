@@ -16,22 +16,22 @@ export const ModelIcon = ({ icon }: { icon: IconType }) => {
 };
 
 export const robinModel: Card = {
-  title: "Robin-hunt",
+  title: "Robin-HUNT",
   description:
-    "Robin-hunt is an interface for identifying fraudelence for healthcare claims. Provide any claims' metadata and Robin-hunt can output a correct classification of fraudulence. In the future, Robin-hunt will also support its classifications with cited sources and general reasonings.",
+    "Robin-HUNT is an interface for identifying fraudelence for healthcare claims. Provide any claims' metadata and Robin-HUNT can output a correct classification of fraudulence. In the future, Robin-HUNT will also support its classifications with cited sources and general reasonings.",
   button: {
-    text: "Try Robin-hunt",
+    text: "Try Robin-HUNT",
     href: clientRoutes.overviewModels("robin-hunt"),
   },
   graphic: <ModelIcon icon={modelIconMap["robin-hunt"]} />,
 };
 
 export const holmesModel: Card = {
-  title: "Robin-holmes",
+  title: "Robin-HOLMES",
   description:
-    "Robin-holmes is an interface for in-depth analysis for fraudulence for any healthcare metadata. Use it to gather detailed views of feature anomalies and fraud indicators, all backed by a massive database of healthcare fraudulent cases.",
+    "Robin-HOLMES is an interface for in-depth analysis for fraudulence for any healthcare metadata. Use it to gather detailed views of feature anomalies and fraud indicators, all backed by a massive database of healthcare fraudulent cases.",
   button: {
-    text: "Try Robin-holmes",
+    text: "Try Robin-HOLMES",
     href: clientRoutes.overviewModels("robin-holmes"),
   },
   graphic: <ModelIcon icon={modelIconMap["robin-holmes"]} />,
