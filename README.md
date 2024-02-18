@@ -1,3 +1,12 @@
+## Robin AI
+- The heathcare fraud detection platform, powered with AI
+
+## Demo
+
+https://github.com/trangiabach/robin-web/assets/62537937/9baea351-6e69-46c7-8d41-56d11e520cbd
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
