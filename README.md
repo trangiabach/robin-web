@@ -1,5 +1,5 @@
 ## Robin AI
-- The heathcare fraud detection platform, powered with AI
+The heathcare fraud detection platform, powered with AI
 
 ## Demo
 
