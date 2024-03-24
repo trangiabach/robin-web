@@ -3,7 +3,7 @@ The heathcare fraud detection platform, powered with AI
 
 ## Demo
 
-We are still working on the platform, but we can keep you updated [here](https://robin-ai.vercel.app/models/robin-hunt/overview#still-building).
+We are still working on the platform, but we can keep you updated [here](https://robin-ai.vercel.app/models/robin-hunt/overview#still-building). This is only a demo that shows a portion of Robin's capabilities. For more information, please reach out to **bachtran@seas.upenn.edu**!
 
 https://github.com/trangiabach/robin-web/assets/62537937/9baea351-6e69-46c7-8d41-56d11e520cbd
 
